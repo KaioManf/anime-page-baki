@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    color: white;
+    padding-left: 0;
+    padding-right: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #adaa91;
+}
+
+nav {
+    display: flex;
+    padding: 0 35px;
+    background-color: black;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-left: 50px;
+}
+
+#wallpaper {
+    width: 100%;
+}
+
+main h1 {
+    color: #adaa91;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+}
+
+main p {
+    text-indent: 25px;
+    color: #adaa91;
+    font-size: 28px;
+    text-align: justify;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.persons {
+    background-color: #adaa91;
+    color: white;
+}
+
+.persons #t1 {
+    padding-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+}
+
+.DivPrinc {
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    text-align: center;
+}
+
+.persons .DivPrinc h1 {
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.persons .DivPrinc .right p {
+    padding-left: 80px;
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.persons .DivPrinc .left p {
+    padding-right: 80px;
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+#curious {
+    color: #adaa91;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+}
+
+button {
+    background-color: white;
+    color: #adaa91;
+    padding: 10px 100px;
+    border: 2px solid #adaa91;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.curious h1 {
+    text-align: left;
+    margin-left: 180px;
+    color: #adaa91;
+    font-size: 35px;
+}
+
+.curious p {
+    color: #adaa91;
+    text-indent: 25px;
+    font-size: 28px;
+    margin-left: 180px;
+    margin-bottom: 75px;
+}
+
+.curious ul li {
+    color: #adaa91;
+    font-size: 28px;
+    margin-left: 180px;
+}
+
+hr{
+    width: 80%;
+    border: 1px solid #adaa91;
+}
+
+#lastP {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #adaa91;
+    color: white;
+    text-align: center;
+}
+
+footer button {
+    margin: 30px 0 10px 0;
+    padding: 10px 200px;
+}
